@@ -100,6 +100,53 @@ const plans = [
   { label: "Yearly", price: "₦60,000", period: "every 12 months" },
 ];
 
+const coreGroups = [
+  {
+    icon: Users,
+    title: "Patient care & scheduling",
+    benefit: "Fewer no-shows, shorter waits, calmer front desk.",
+    points: [
+      "Patient profiles with history, files, correspondence, allergies and alerts",
+      "Appointments, clinician schedules, chair availability and a live waiting list",
+      "SOAP notes, treatment plans, prescriptions and consent forms captured digitally",
+      "Treatment materials linked to what was used, so stock and clinical notes agree",
+    ],
+  },
+  {
+    icon: Wallet,
+    title: "Finance & billing",
+    benefit: "Know what you earned, what it cost and what's still owed.",
+    points: [
+      "Invoicing and estimates before a patient commits to treatment",
+      "Payment plans for higher-value work like implants and orthodontics",
+      "Expenses, staff commission payouts and revenue allocation tracked as they happen",
+      "Profitability by treatment and clinician, not just month-end totals",
+    ],
+  },
+  {
+    icon: Boxes,
+    title: "Inventory & supply chain",
+    benefit: "Never lose a procedure to an empty shelf or forgotten reorder.",
+    points: [
+      "Materials and consumables tracked with real cost and valuation",
+      "Treatment materials linked directly to the treatments that consume them",
+      "Suppliers and purchase orders kept against the items they deliver",
+      "Stock levels visible before the next patient is in the chair",
+    ],
+  },
+  {
+    icon: FileBarChart,
+    title: "Reports & administration",
+    benefit: "Run the clinic on evidence, and prove what happened.",
+    points: [
+      "Standard reports and advanced analytics across clinical, financial and operational activity",
+      "Staff records, document storage, website settings and clinic administration",
+      "An audit log showing who changed what and when",
+      "A live activity feed so owners see the day without chasing updates",
+    ],
+  },
+];
+
 const DentalClinics = () => {
   return (
     <Layout>
